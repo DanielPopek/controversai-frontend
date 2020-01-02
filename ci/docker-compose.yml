@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  political_ly_front:
+    build: ~/projects/political_ly/front/
+    container_name: political_ly_frontend
+    ports:
+      - 5003:80
