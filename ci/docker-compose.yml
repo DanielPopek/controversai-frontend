@@ -1,7 +1,0 @@
-version: "3.7"
-services:
-  political_ly_frontend:
-    build: ~/projects/tweet_label/frontend/
-    container_name: tweet_label_frontend
-    ports:
-      - 5003:80
