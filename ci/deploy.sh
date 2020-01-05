@@ -1,2 +1,3 @@
-docker-compose -f projects/political_ly/frontend/docker-compose.yml up -d --build
-#rm -rf projects/political_ly/frontend/dist
+docker-compose -f projects/political_ly/frontend/docker-compose.yml build --no-cache
+docker-compose -f projects/political_ly/frontend/docker-compose.yml up -d
+rm -rf projects/political_ly/frontend/dist
