@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
 import { HeaderComponent } from "./shared/header/header.component";
 import { NavigationComponent } from "./shared/navigation/navigation.component";
 import { UserplotsComponent } from './userplots/userplots.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { UserplotsComponent } from './userplots/userplots.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot(routes, { useHash: true })
   ],
   providers: [],
