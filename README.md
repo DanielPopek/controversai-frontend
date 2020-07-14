@@ -9,3 +9,5 @@ Front application of the project implemented in Agular 8.
 ## Screen
 
 ![Screen](./assets/screen.png)
+
+[Entry point](https://github.com/ssunils/angularadmin)
